@@ -32,7 +32,7 @@ iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
 
 # CREATE, DOWNLOAD, RUN BLYNK SERVER
 ```
-# Create folder and go to folder
+# Create folder and change dir
 mkdir -p /var/www/html/blynk
 cd /var/www/html/blynk
 
